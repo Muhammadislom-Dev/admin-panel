@@ -1,5 +1,5 @@
 import './App.scss';
-import Sidebar from './Components/Sidebar/Sidebar';
+import Sidebar from './Components/Sidebar/Sidebar'
 
 
 function App() {
