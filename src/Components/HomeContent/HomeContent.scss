@@ -50,5 +50,16 @@
         line-height: 21px;
         color: #333;
         letter-spacing: -0.02rem;
+
+        &::before{
+        content: "";
+        display: inline-block;
+        background-image: url("../../assets/img/person.png");
+        background-repeat: no-repeat;
+        background-size: 20px;
+        width: 16px;
+        height: 19px;
+        background-position: top 100% left -1px;
+        }
     }
 }
