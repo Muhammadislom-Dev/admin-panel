@@ -1,0 +1,54 @@
+.homecontent{
+
+    &-home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 48px 0px 0px;
+    }
+
+    &-left{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 350px;
+    }
+
+    &-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #333;
+        padding: 20px;
+
+        &::before{
+            content: "";
+            display: inline-block;
+            background-image: url("../../assets/img/noti.png");
+            background-repeat: no-repeat;
+            background-size: 20px;
+            width: 16px;
+            height: 19px;
+            background-position: top 100% left -1px;
+        }
+
+        &::after{
+            content: "";
+            display: inline-block;
+            background-image: url("../../assets/img/three.png");
+            background-repeat: no-repeat;
+            background-size: 25px;
+            width: 20px;
+            height: 18px;
+            background-position: top 100% left 15%;
+        }
+    }
+
+    &-names{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333;
+        letter-spacing: -0.02rem;
+    }
+}
